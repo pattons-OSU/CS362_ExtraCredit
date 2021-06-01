@@ -16,7 +16,9 @@ Extra Credit 1.2 - Unittest and pytest the Reverse sentence program
 --- For pytest to run correctly, you must tag it with "-s" to gain user input. ie,
     "pytest -s .\test_reverse_sentence.py" in command prompt
 
-2.  
+2.  Write 5 user stories for your social media system from in-class activity 1. Your user stories should have
+    the following format - As - I need/I want - so that. They should have a success criterion. Follow examples in lecture documents and resources. 
+
 
 3.  Write a program that takes an array of integers - array and an integer target_sum. Your program should
     return an array containing two numbers that add up to the target. 
