@@ -14,8 +14,16 @@ Your program should return an array containing two numbers that add up to the ta
 import math
 
 def array_size():
-    array_size = input("\nHow big would you like the array?\n")
-    array_size = int(array_size)
+    ## Forcing array to be smaller than 10 for ease.
+    while 1:
+        array_size = input("\nHow big would you like the array?\n")
+        array_size = int(array_size)
+
+        if array_size <= 10:
+            break
+
+        if array_size > 10:
+            print("Please enter an array size under 11.")
 
     return array_size
 
