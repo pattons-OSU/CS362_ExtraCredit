@@ -18,3 +18,6 @@ Extra Credit 1.2 - Unittest and pytest the Reverse sentence program
 
 2.  
 
+3.  Write a program that takes an array of integers - array and an integer target_sum. Your program should
+    return an array containing two numbers that add up to the target. 
+
