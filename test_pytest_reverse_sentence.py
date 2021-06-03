@@ -32,22 +32,7 @@ def reversed_input():
 user_input = reverse_sentence.user_input()
 reversed_input = reverse_sentence.reverse_string(user_input)
 
-class testCase():
-    """
-    @pytest.fixture
-    def user_input():
-        user_input = reverse_sentence.user_input()
-        reversed_input = reverse_sentence.reverse_string(user_input)
-        return reversed_input, user_input
-    """
-    ## Testing to make sure that the user is passing through a
-    ## String that is capable of being reversed.
-    def test_input_type(self):
-        assert type(user_input) == str
-        ##self.assertTrue(type(user_input), str)
-    ## Testing to make sure that the reversing function is actually
-    ## doing the correct function.
-    def test_reversing(self):
-        ##self.assertEqual(user_input.split(' ')[::-1], reversed_input)
-        assert user_input.split(' ')[::-1] == reversed_input
-
+def test_input_type():
+    assert type(user_input) == str
+def test_reversing():
+    assert user_input.split(' ')[::-1] == reversed_input
