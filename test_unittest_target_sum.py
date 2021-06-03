@@ -21,6 +21,7 @@ test_array_list = target_sum.add_to_array(test_array_size)
 test_pair_value = target_sum.pair_values(test_array_list, test_array_size, test_target_sum)
 
 class testCase(unittest.TestCase):
+    
     ## 
     def test_input_array_type(self):
         self.assertTrue(type(test_array_size), int)
@@ -33,7 +34,7 @@ class testCase(unittest.TestCase):
         self.assertEqual(len(test_array_list), test_array_size)
 
     def test_pair_vs_sum(self):
-        self.assertEqual((test_pair_value[0][0] + test_pair_value[0][1]), test_array_size)
+        self.assertEqual((test_pair_value[0][0] + test_pair_value[0][1]), test_target_sum)
     
 
 if __name__ == '__main__':
