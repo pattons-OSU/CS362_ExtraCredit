@@ -22,17 +22,19 @@ test_pair_value = target_sum.pair_values(test_array_list, test_array_size, test_
 
 class testCase(unittest.TestCase):
     
-    ## 
+    ##  Test to make sure that the input type is the correct data type of int
     def test_input_array_type(self):
         self.assertTrue(type(test_array_size), int)
 
-    ## 
+    ## Test to make sure that the input type is the correct data type of int
     def test_input_sum_type(self):
         self.assertTrue(type(test_target_sum), int)
 
+    ## Test to verify that the length of the list is what was intended by the inputs
     def test_add_to_array(self):
         self.assertEqual(len(test_array_list), test_array_size)
 
+    ## Test to verify that the ordered pairs equal the target sum
     def test_pair_vs_sum(self):
         self.assertEqual((test_pair_value[0][0] + test_pair_value[0][1]), test_target_sum)
     
