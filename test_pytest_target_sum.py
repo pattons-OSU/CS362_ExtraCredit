@@ -9,6 +9,9 @@ Extra Credit 3.2 - Pytest the target sum program
 (do not run the tests with pytest alone - you should use pytest syntax as well.)
 
 """
+## Could not get the pytest fixtures working correctly.
+## as of this moment, you need to run pytest with the -s
+## flag in order to obtain user input.
 
 import pytest
 import target_sum
