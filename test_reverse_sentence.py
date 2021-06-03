@@ -13,21 +13,6 @@ Extra Credit 1.2.1 - Unittest the Reverse sentence program
 import unittest
 import reverse_sentence
 
-## Could not get the pytest fixtures working correctly.
-## as of this moment, you need to run pytest with the -s
-## flag in order to obtain user input.
-"""
-@pytest.fixture
-def user_input():
-    user_input = reverse_sentence.user_input()
-    return user_input
-
-@pytest.fixture
-def reversed_input():
-    reversed_input = reverse_sentence.reverse_string(user_input)
-    return reversed_input
-"""
-
 ## Setting global variables
 user_input = reverse_sentence.user_input()
 reversed_input = reverse_sentence.reverse_string(user_input)
