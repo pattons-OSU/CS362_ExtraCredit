@@ -3,7 +3,7 @@
 """
 Simeon Patton
 CS362 OSU Spring 2021
-Extra Credit 1.2 - Unittest and pytest the Reverse sentence program
+Extra Credit 1.2.1 - Unittest the Reverse sentence program
 
 --Write tests for the reverse_sentence program using unittest and pytest. 
 (do not run the tests with pytest alone - you should use pytest syntax as well.)
@@ -11,7 +11,6 @@ Extra Credit 1.2 - Unittest and pytest the Reverse sentence program
 """
 
 import unittest
-import pytest
 import reverse_sentence
 
 ## Could not get the pytest fixtures working correctly.
